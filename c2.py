@@ -14,7 +14,7 @@ import sys
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-proxys = open('proxys.txt').readlines()
+proxys = open('http.txt').readlines()
 bots = len(proxys)
 
 def ascii_vro():
